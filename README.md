@@ -4,24 +4,14 @@ Repositář s dokumenty, které se týkají semestrální práce z předmětu 4I
 Autoři: Klaudia Hrutková, Matyáš Pšenička, Jan Veverka
 
 ## Obsah repositáře
-- Popis aplikace
-- Dokumentace architektury č.1
-- Dokumentace architektury č.2
-## Popis aplikace
-Prodejní portál vstupenek na koncerty s velkými počty akcí a velkým objemem vstupenek potřebuje pro svou činnost pružné řešení. 
-
-**Uživatelé:** tisíce souběžných uživatelů, nárazy až 10 000 uživatelů za sekundu při prodeji vstupenek. 
-
-**Požadavky:**
-
-- umožnit souběžný nákup vstupenek 
-
-- neprodat žádné místo více než jednou! 
-
-- nakupující vidí přehled zbývajících míst 
+- [Popis aplikace](https://github.com/klaudiahr/4IT575-SmP-TicketPRO/wiki)
+- [Dokumentace architektury č.1](https://github.com/klaudiahr/4IT575-SmP-TicketPRO/wiki/Dokumentace-Microservices-architektury)
+- [Dokumentace architektury č.2](https://github.com/klaudiahr/4IT575-SmP-TicketPRO/wiki/Dokumentace-Event-driven-architektury)
 
 ## Zvolené architektury
 - Event Driven Architecture
-  - ADR 1
+  - [ADR 1](https://github.com/klaudiahr/4IT575-SmP-TicketPRO/wiki/ADR-o-vyu%C5%BEit%C3%AD-Microservices)
 - Microservices architecture
-  - ADR 2
+  - [ADR 2](https://github.com/klaudiahr/4IT575-SmP-TicketPRO/wiki/ADR-o-vyu%C5%BEit%C3%AD-EDA)
+- Finální výběr architektury
+  - [ADR 3](https://github.com/klaudiahr/4IT575-SmP-TicketPRO/wiki/ADR-o-v%C3%BDb%C4%9Bru-fin%C3%A1ln%C3%AD-architektury)
