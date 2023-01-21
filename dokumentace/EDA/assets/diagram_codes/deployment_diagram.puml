@@ -1,0 +1,57 @@
+@startuml
+
+node "Zařízení obchodníka se stánky" as StandsOwnerDevice
+
+node "Zařízení provozovatele stánku" as StandManagerDevice
+
+node "Zařízení pracovníka správy zásob" as WarehouseWorkerDevice
+
+cloud "Sociální sítě" as SocialNetwork
+
+node "Microsoft Azure" as azure <<execution environment>> {
+
+    node "Webový server" as WebServer {
+
+        node Kestrel <<execution environment>> {
+
+            artifact "Aplikace webové API" <<application>>
+
+        }
+
+    }
+
+    node "Aplikační server" as AplicationServer {
+
+        node Docker <<execution environment>> {
+
+            artifact "ERP software" <<application>>
+
+        }
+
+    }
+
+    node "Databázový server" as DbServer {
+
+        node "MS SQL Server" <<DBMS>> {
+
+            database "Databáze prodejního systému"
+
+        }
+
+    }
+
+}
+
+WebServer -up- SocialNetwork : HTTP
+
+WebServer -left- StandsOwnerDevice  : WebSocket
+
+WebServer -left- StandManagerDevice  : WebSocket
+
+WebServer -left- WarehouseWorkerDevice : WebSocket
+
+AplicationServer -up- WebServer : WebSocket
+
+AplicationServer -down- DbServer : ODBC
+
+@enduml

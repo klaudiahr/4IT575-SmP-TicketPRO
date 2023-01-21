@@ -1,22 +1,42 @@
-# 4IT575-SmP-TicketPRO
-Repositář s dokumenty, které se týkají semestrální práce z předmětu 4IT575 - Softwarové architektury.
-
-Autoři: Klaudia Hrutková, Matyáš Pšenička, Jan Veverka
+# 4IT575 Seminární práce
+Repositář s dokumenty, které se týkají seminární práce v rámci předmětu 4IT575 - Softwarové architektury.
 
 ## Obsah repositáře
-- [Wiki rozcestí](https://github.com/klaudiahr/4IT575-SmP-TicketPRO/wiki)
-- [Popis aplikace](https://github.com/klaudiahr/4IT575-SmP-TicketPRO/wiki/Popis-aplikace)
-- [Dokumentace architektury č.1](https://github.com/klaudiahr/4IT575-SmP-TicketPRO/wiki/Dokumentace-Microservices-architektury)
-- [Dokumentace architektury č.2](https://github.com/klaudiahr/4IT575-SmP-TicketPRO/wiki/Dokumentace-Event-driven-architektury)
+- [Popis aplikace](#popis-aplikace "Popis aplikace")
+- [Dokumentace architektury č. 1](./dokumentace/SOA/ "Dokumentace architektury č. 1")
+- [Dokumentace architektury č. 2](./dokumentace/EDA/ "Dokumentace architektury č. 2")
+
+## Popis aplikace
+Místní obchodník se stánky s párky v rohlíku chce pro své provozovatele stánků s párky v rohlíku prodejní systém.
+
+**Uživatelé**: asi padesát provozovatelů stánků s hot dogy, tisíce zákazníků v okolí (prostřednictvím sociálních médií).
+
+### Požadavky
+- Musí být jednoduchý a běžet na malých zařízeních - notebook je příliš těžký na to, aby se dal efektivně používat při prodeji hot dogů na ulici
+- Umožnit slevy
+- Sledovat tržby podle času a místa
+- Posílat aktualizace zásob mobilním pracovníkům pro správu zásob (kteří jezdí na místo se zásobami).
+- Umožňují integraci se sociálními sítěmi, takže zákazníci mohou být informováni o tom, že je stánek s hot dogy poblíž.
+- Exportovat informace ve formátu importovatelném účetními nástroji
+
+### Další souvislosti
+- Systém je potřeba, protože současné nesourodé způsoby sledování prodeje vyžadují příliš mnoho ruční práce
+- Důležitá je doba dodání systému
+- Je důležité vybudovat řešení, které nebude třeba za 3 roky vyměnit
+- Žádná vážná rozpočtová omezení
+
+### Aplikace v systému
+- Klientská aplikace pro prodejní systém
+- Backend pro obsluhu klientských aplikací
+
+### Zdroj
+PÍSEK, Slavoj, 2021. Zadání seminární práce z předmětu 4IT575 – Softwarové Architektury. 10. listopad 2021.
+
+## Správa dokumentace
+Správa dokumentace by měla být v souladu s contributing guidelines tohoto repositáře (viz. [Contributing guidelines](https://github.com/MichalMoudry/4IT575-seminarni-prace/blob/main/CONTRIBUTING.md "Contributing guidelines")).
 
 ## Zvolené architektury
-- Event Driven Architecture
-  - [ADR 1](https://github.com/klaudiahr/4IT575-SmP-TicketPRO/wiki/ADR-o-vyu%C5%BEit%C3%AD-Microservices)
-- Microservices architecture
-  - [ADR 2](https://github.com/klaudiahr/4IT575-SmP-TicketPRO/wiki/ADR-o-vyu%C5%BEit%C3%AD-EDA)
-- Finální výběr architektury
-  - [ADR 3](https://github.com/klaudiahr/4IT575-SmP-TicketPRO/wiki/ADR-o-v%C3%BDb%C4%9Bru-fin%C3%A1ln%C3%AD-architektury)
-
-## Zdroje
-- https://wiki.sei.cmu.edu/confluence/display/SAD/Software+Architecture+Documentation+Template 
-- ADR
+- Service Oriented Architecture - SOA
+    - [ADR o využítí SOA](./dokumentace/SOA/rozhodnutí/2-celkova-architektura/ "ADR o využítí SOA")
+- Event Driven Architecture - EDA
+    - [ADR o využítí EDA](./dokumentace/EDA/rozhodnutí/2-celkova-architektura/ "ADR o využítí EDA")
