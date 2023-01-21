@@ -4,7 +4,8 @@ Repositář s dokumenty, které se týkají semestrální práce z předmětu 4I
 Autoři: Klaudia Hrutková, Matyáš Pšenička, Jan Veverka
 
 ## Obsah repositáře
-- [Popis aplikace](https://github.com/klaudiahr/4IT575-SmP-TicketPRO/wiki)
+- [Wiki rozcestí](https://github.com/klaudiahr/4IT575-SmP-TicketPRO/wiki)
+- [Popis aplikace](https://github.com/klaudiahr/4IT575-SmP-TicketPRO/wiki/Popis-aplikace)
 - [Dokumentace architektury č.1](https://github.com/klaudiahr/4IT575-SmP-TicketPRO/wiki/Dokumentace-Microservices-architektury)
 - [Dokumentace architektury č.2](https://github.com/klaudiahr/4IT575-SmP-TicketPRO/wiki/Dokumentace-Event-driven-architektury)
 
