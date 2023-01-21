@@ -15,3 +15,7 @@ Autoři: Klaudia Hrutková, Matyáš Pšenička, Jan Veverka
   - [ADR 2](https://github.com/klaudiahr/4IT575-SmP-TicketPRO/wiki/ADR-o-vyu%C5%BEit%C3%AD-EDA)
 - Finální výběr architektury
   - [ADR 3](https://github.com/klaudiahr/4IT575-SmP-TicketPRO/wiki/ADR-o-v%C3%BDb%C4%9Bru-fin%C3%A1ln%C3%AD-architektury)
+
+## Zdroje
+- https://wiki.sei.cmu.edu/confluence/display/SAD/Software+Architecture+Documentation+Template 
+- ADR
