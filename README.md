@@ -5,10 +5,10 @@ Autoři: Klaudia Hrutková, Matyáš Pšenička, Jan Veverka
 
 ## Obsah repositáře
 
-- [Popis aplikace]
-- [Dokumentace architektury č. 1]
-- [Dokumentace architektury č. 2]
-- [Architecture decision record]
+- [Popis aplikace](https://github.com/klaudiahr/4IT575-SmP-TicketPRO/wiki/1.-Popis-aplikace)
+- [Dokumentace architektury č. 1](https://github.com/klaudiahr/4IT575-SmP-TicketPRO/wiki/2.1-Dokumentace-Microservices-architektury)
+- [Dokumentace architektury č. 2](https://github.com/klaudiahr/4IT575-SmP-TicketPRO/wiki/2.2-Dokumentace-Event-driven-architektury)
+- [Architecture decision record](https://github.com/klaudiahr/4IT575-SmP-TicketPRO/wiki/3.-ADR)
 
 Všechno popsané v rámci [Wiki](https://github.com/klaudiahr/4IT575-SmP-TicketPRO/wiki).
 
